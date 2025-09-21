@@ -26,11 +26,11 @@ function VideoRoom() {
       sharedLinks: [
         {
           name: 'copy link',
-          url: `http://localhost:5173/room/${roomid}`,
+          url: `https://video-call-web-six.vercel.app/room/${roomid}`,
         },
       ],
       scenario: {
-        mode: ZegoUIKitPrebuilt.OneONoneCall,
+        mode: ZegoUIKitPrebuilt.GroupCall,
       },
     });
   };
