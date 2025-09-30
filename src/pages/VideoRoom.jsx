@@ -26,7 +26,7 @@ function VideoRoom() {
       sharedLinks: [
         {
           name: 'copy link',
-          url: `https://video-call-web-six.vercel.app/room/${roomid}`,
+          url: `https://video-call-web-six.vercel.app`,
         },
       ],
       scenario: {
